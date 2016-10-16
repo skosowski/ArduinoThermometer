@@ -6,12 +6,12 @@ Project uses three main components:
 * TI TMP102 digital thermometer 
 
 ## Mode of operation
-send "T" to request current temperature
-send "Off" to turn off alerting
-Format of alerting is "A[l|m][+|-]xxx"
-where l is less, m is more, + or - for positive or negative temperature in Celcius.
-Couple of examples:
-Send "Am+250" to get alerted when temperature rises above +25 Celcius 
-Send "Al-050" to get alerted when temperature drops below - 5 Celcius
-Send "Am-150" to get alerted when temperature rises above -15 Celcius
-Send "Al+200" to get alerted when temperature drops below +20 Celcius
+* send "T" to request current temperature
+* send "Off" to turn off alerting
+* format of alerting is "A[l|m][+|-]xxx" where l is less, m is more, + or - for positive or negative temperature in Celcius.
+
+### Examples:
+* send "Am+250" to get alerted when temperature rises above +25 Celcius 
+* send "Al-050" to get alerted when temperature drops below - 5 Celcius
+* send "Am-150" to get alerted when temperature rises above -15 Celcius
+* send "Al+200" to get alerted when temperature drops below +20 Celcius
