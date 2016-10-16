@@ -1,9 +1,9 @@
 ## Introduction
 This is a contact thermometer with alerting function for temperature drop or rise below or above a given threshold. If alert condition occurs, an SMS message is sent to a given number.
 Project uses three main components: 
-# Arduino Uno Board 
-# Arduino GSM module
-# TI TMP102 digital thermometer 
+* Arduino Uno Board 
+* Arduino GSM module
+* TI TMP102 digital thermometer 
 
 ## Mode of operation
 send "T" to request current temperature
